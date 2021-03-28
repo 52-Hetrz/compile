@@ -1,0 +1,21 @@
+FUNCTION fun :
+PARAM var2
+temp1 := #2
+temp2 := var2 - temp1
+RETURN temp2
+LABEL label1 :
+FUNCTION main :
+temp3 := #0
+var4 := temp3
+temp4 := #2
+temp5 := var4 + temp4
+var4 := temp5
+temp6 := #2
+temp7 := var4 * temp6
+var4 := temp7
+ARG var4
+temp8 := CALL fun
+var4 := temp8
+temp9 := #1
+RETURN temp9
+LABEL label2 :
